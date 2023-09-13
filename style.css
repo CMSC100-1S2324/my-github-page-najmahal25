@@ -197,11 +197,11 @@ footer { /* property of the whole footer area*/
 
 footer a { /* property of the "Back to top" link*/
    text-decoration: none;
-   color: #ff0000;
+   color: #000000;
 }
 
 footer a:hover { /*reference: https://www.w3schools.com/cssref/sel_hover.php*/
-   color: #f59999;
+   color: #91b5f5;
 }
 
 
