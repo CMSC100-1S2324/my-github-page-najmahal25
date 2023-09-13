@@ -1,0 +1,208 @@
+body { /* property of the body*/
+    margin: 0;
+    padding: 0;
+    font-family:Georgia;
+ }
+ 
+ header { /* property of the header area*/
+    background-color: #22668D;
+    justify-content: space-between;
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    height: 60px;
+ }
+ 
+ .logo { /* property of the logo area*/
+   display: flex; 
+   align-items: center; 
+   margin-right: 20px; 
+ }
+ 
+ .logo img { /* property of the logo image*/
+    height: 100px; 
+    width: 100px;
+ }
+ 
+ header ul { /* property of the whole navigation text*/
+    font-size: larger;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #22668D;
+    height: 80px
+ }
+ 
+ header li { /* property of the individual navigation text*/
+    padding: 20px;
+ }
+ 
+ header a { /* property of each navigational link*/
+    text-decoration: none;
+    color: #fff;
+ }
+ 
+ 
+ header a:hover { /*reference: https://www.w3schools.com/cssref/sel_hover.php*/
+    color: #FFFADD;
+ }
+ 
+ .featured-photo{ /* property of the featured photo area*/
+    background-color: #FFFADD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .featured-photo img { /* property of the featured photo image*/
+    margin: 5%;
+    margin-bottom: 0;
+    max-width: 100%;
+    height: 90%; 
+    width: 90%;
+ }
+
+ .previous-project-title{ /* property of the previous project title*/
+   background-color: #FFFADD;
+   display: flex;
+   justify-content: center;
+   align-items:top;
+   font-size: 50px;
+   color: #333;
+   
+}
+ 
+ .project{ /* property of the previous project area*/
+   background-color: #FFFADD;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2%;
+    
+ }
+
+.project-item { /* property of the project content*/
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+.project-item img { /* property of the project image*/
+   max-width: 100%;
+   height: 80%;
+   width:80%;
+}
+
+.project-item h4 { /* property of the title of each project*/
+   margin-top: 10px; 
+   font-size: 15px;
+   color: #333; 
+}
+
+
+.title { /* property of both Skill and Autobiography Area*/
+   font-size: xx-large;
+   display: flex; 
+   flex-wrap: wrap;
+   align-items: center;
+   background-color: #FFFADD;
+   justify-content: center;
+}
+
+.autobiography-item { /* property of the autobiography page*/
+   flex: 1; 
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding: 50px;
+}
+
+.autobiography-item p { /* property of the autobiography paragraph*/
+   display: flex;
+   flex: 1;
+   text-align: justify;
+   font-size:medium;
+   line-height: 1.5;
+}
+
+.skill-item { /* property of the whole Skills Area*/
+   display: flex; 
+   flex: 1; 
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+
+.skill-title{ /* property of the Skills Title*/
+   flex-wrap: wrap;
+   font-size: xx-large;
+}
+
+.skill-item-list{ /* property of both list of skills */
+   display:flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+}
+
+.skill-item-list1 ul{ /* property of the whole list of skills*/
+   background-color: #FFFADD;
+   font-size: large;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.skill-item-list li{ /* property of the individual skills listed*/
+   padding: 15px;
+}
+
+footer { /* property of the whole footer area*/
+   background-color: #22668D;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between; 
+   align-items: center; 
+   padding: 10px; 
+}
+.footer-content ul { /* property of the whole footer content*/
+   list-style: none; /* remove bullet points*/
+   padding: 0; 
+   margin: 0; 
+}
+
+.footer-content li { /* property of the individual footer content*/
+   color: #fff;
+   font-size: x-small;
+   margin: 5px; 
+   padding: 0; 
+   text-align:left;
+}
+
+footer a { /* property of the "Back to top" link*/
+   text-decoration: none;
+   color: #000000;
+}
+
+footer a:hover { /*reference: https://www.w3schools.com/cssref/sel_hover.php*/
+   color: #91b5f5;
+}
+
+
+
