@@ -14,7 +14,9 @@ body {
  }
  
  .logo {
-    margin-right: 20px; 
+   display: flex; 
+   align-items: center; 
+   margin-right: 20px; 
  }
  
  .logo img {
@@ -22,7 +24,7 @@ body {
     width: 100px;
  }
  
- ul {
+ header ul {
     font-size: larger;
     list-style: none;
     margin: 0;
@@ -31,22 +33,21 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
     background-color: #22668D;
     height: 80px
  }
  
- li {
+ header li {
     padding: 20px;
  }
  
- a {
+ header a {
     text-decoration: none;
     color: #fff;
  }
  
  
- a:hover { /*reference: https://www.w3schools.com/cssref/sel_hover.php*/
+ header a:hover { /*reference: https://www.w3schools.com/cssref/sel_hover.php*/
     color: #FFFADD;
  }
  
@@ -64,16 +65,28 @@ body {
     height: 90%; 
     width: 90%;
  }
+
+ .previous-project-title{
+   background-color: #FFFADD;
+   display: flex;
+   justify-content: center;
+   align-items:top;
+   font-size: 50px;
+   color: #333;
+   
+}
  
  .project{
    background-color: #FFFADD;
    display: flex;
    justify-content: center;
    align-items: center;
+   padding: 2%;
     
  }
 
 .project-item {
+   flex-wrap: wrap;
    text-align: center;
 }
 
@@ -83,26 +96,20 @@ body {
    width:80%;
 }
 
-.project-item p {
+.project-item h4 {
    margin-top: 10px; 
    font-size: 15px;
    color: #333; 
 }
 
-.previous-project-title{
-   background-color: #FFFADD;
-   display: flex;
-   justify-content: center;
-   align-items:top;
-   font-size: 50px;
-   color: #333;
-   
-}
-
 
 .title {
+   font-size: xx-large;
    display: flex; 
+   flex-wrap: wrap;
+   align-items: center;
    background-color: #FFFADD;
+   justify-content: center;
 }
 
 .autobiography-item {
@@ -114,7 +121,16 @@ body {
    padding: 20px;
 }
 
+.autobiography-item p {
+   display: flex;
+   flex: 1;
+   text-align: justify;
+   font-size:medium;
+   line-height: 1.5;
+}
+
 .skill-item {
+   display: flex; 
    
    flex: 1; 
    flex-direction: column;
@@ -124,8 +140,65 @@ body {
    padding: 20px;
 }
 
+.skill-title{
+   flex-wrap: wrap;
+   font-size: xx-large;
+}
+
 .skill-item img{
    height: 100px; 
    width: 100px;
 }
+
+.skill-item-list{
+   display:flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+}
+
+.skill-item-list1 ul{
+   background-color: #FFFADD;
+   font-size: large;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.skill-item-list li{
+   padding: 15px;
+}
+
+footer {
+   background-color: #22668D;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between; 
+   align-items: center; /* Vertically align items */
+   padding: 10px; /* Add padding for spacing */
+}
+.footer-content ul {
+   list-style: none;
+   padding: 0;
+   margin: 0; /* Remove any margin to align the list items properly */
+}
+
+.footer-content li {
+   font-size: small;
+   margin: 5px 0; 
+   padding: 0; 
+   text-align: center;
+}
+
+
 
